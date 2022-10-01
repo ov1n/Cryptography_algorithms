@@ -41,8 +41,10 @@ def simpleSubstitution(text,key=None):
                 if(t==key[j]):
                     print(chr(j+65),end="")
     return(message)
+
 #encrypt with random key
 print(simpleSubstitution("abcdefghijklmnopqrstuvwxyz"))
+
 #decrypt with given key
 print(simpleSubstitution("az","qwertyuiopasdfghjklzxcvbnm"))
     
